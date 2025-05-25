@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+*.log
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+.next/
+.env.local
+.DS_Store
+
+# OS/System files
+Thumbs.db
+.DS_Store
+
