@@ -34,20 +34,20 @@ This project presents an AI-powered plant health monitoring system that combines
 ---
 
 ## 🗂 Project Structure
-plant-health-monitoring-fyp/
-├── demo/ # Screenshots or video previews
-├── notebooks/ # Model training notebooks
-├── src/
-│ ├── app/
-│ │ ├── backend/ # FastAPI backend
-│ │ └── frontend/ # Next.js frontend
-│ ├── detection/ # YOLOv9s prediction
-│ ├── classification/ # ResNet50 classifier
-│ ├── tracking/ # DeepSORT tracker
-│ └── chatbot/ # LangChain CSV agent & Gemma chatbot
-├── requirements.txt
-├── .gitignore
-└── README.md
+* plant-health-monitoring-fyp/
+* ├── demo/ # Screenshots or video previews
+* ├── notebooks/ # Model training notebooks
+* ├── src/
+* │ ├── app/
+* │ │ ├── backend/ # FastAPI backend
+* │ │ └── frontend/ # Next.js frontend
+* │ ├── detection/ # YOLOv9s prediction
+* │ ├── classification/ # ResNet50 classifier
+* │ ├── tracking/ # DeepSORT tracker
+* │ └── chatbot/ # LangChain CSV agent & Gemma chatbot
+* ├── requirements.txt
+* ├── .gitignore
+* └── README.md
 
 ---
 
