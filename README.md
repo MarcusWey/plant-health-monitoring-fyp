@@ -29,7 +29,6 @@ This project presents an AI-powered plant health monitoring system that combines
 - Upload an image or ask a plant-related question
 - Detects and classifies plant health
 - Generates natural language response powered by Gemma3
-- Works with or without CSV-based RAG
 
 ---
 
