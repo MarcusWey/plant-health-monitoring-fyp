@@ -45,7 +45,7 @@ This project presents an AI-powered plant health monitoring system that combines
 
 | Model     | Accuracy | Notes                              |
 |-----------|----------|------------------------------------|
-| ResNet50  | 99.53%   | Final classifier for disease types |
+| ResNet50  | 99.53%   | Final classifier for 16 leaves disease types |
 | YOLOv9s   | mAP@50: 0.994 | 6 leaf types, 5440 images     |
 
 ---
