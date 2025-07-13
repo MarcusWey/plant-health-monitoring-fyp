@@ -181,18 +181,4 @@ If different, update the URL in `realtime_monitoring.py` accordingly.
 
 ---
 
-### 💡 5. Using the System
-
-#### 🌿 Real-Time Monitoring
-
-* Start Webcam → Begin Session
-* Detects leaves → Tracks → Classifies → Saves to CSV
-* Generates prescriptions via CSV Agent + Llama 3.2b
-
-#### 🤖 Chatbot (Farmiz)
-
-* Start Session → Ask a question or upload a plant image
-* Classifies disease → Responds using Gemma3
-* Works even without detection session
-
 
