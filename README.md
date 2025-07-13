@@ -130,7 +130,7 @@ These models power Farmiz chatbot and real-time prescription generation.
 
 ```bash
 cd real-time-plant-health-monitoring-fyp/src/backend
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn main:app --reload
 ```
 
 * Starts API at: `http://127.0.0.1:8000`
