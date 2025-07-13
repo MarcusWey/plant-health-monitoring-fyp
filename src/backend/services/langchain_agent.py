@@ -10,7 +10,7 @@ SYSTEM = """
 
 4. Please avoid using bold, italics, or any other formatting. Just plain text.
 """
-llm = Ollama(model="gemma3:1b", system=SYSTEM)
+llm = Ollama(model="llama3.2:3b", system=SYSTEM)
 
 def generate_prescription(plant: str, disease: str) -> str:
     tpl = PromptTemplate(
