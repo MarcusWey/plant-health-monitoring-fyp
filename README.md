@@ -29,25 +29,6 @@ This project presents an AI-powered plant health monitoring system that combines
 - Upload an image or ask a plant-related question
 - Detects and classifies plant health
 - Generates natural language response powered by Gemma3
-- Works with or without CSV-based RAG
-
----
-
-## 🗂 Project Structure
-plant-health-monitoring-fyp/
-├── demo/ # Screenshots or video previews
-├── notebooks/ # Model training notebooks
-├── src/
-│ ├── app/
-│ │ ├── backend/ # FastAPI backend
-│ │ └── frontend/ # Next.js frontend
-│ ├── detection/ # YOLOv9s prediction
-│ ├── classification/ # ResNet50 classifier
-│ ├── tracking/ # DeepSORT tracker
-│ └── chatbot/ # LangChain CSV agent & Gemma chatbot
-├── requirements.txt
-├── .gitignore
-└── README.md
 
 ---
 
@@ -64,7 +45,7 @@ plant-health-monitoring-fyp/
 
 | Model     | Accuracy | Notes                              |
 |-----------|----------|------------------------------------|
-| ResNet50  | 99.53%   | Final classifier for disease types |
+| ResNet50  | 99.53%   | Final classifier for 16 leaves disease types |
 | YOLOv9s   | mAP@50: 0.994 | 6 leaf types, 5440 images     |
 
 ---
