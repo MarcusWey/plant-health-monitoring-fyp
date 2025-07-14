@@ -182,6 +182,6 @@ If different, update the URL in `realtime_monitoring.py` accordingly.
 ---
 
 ### 5. Dataset Sources
-Dataset extracted from: 🔗 [GitHub](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+Dataset extracted from: 🔗 [Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
 ---
